@@ -19,7 +19,7 @@ graph LR
 
         %% 套用配色：主流程使用藍色，最終產出使用綠色
         class C,D,E,F premiumBlue
-        class A,B, G premiumGreen
+        class A,B,G premiumGreen
 ```
 
 ## 📂 Repository Structure
