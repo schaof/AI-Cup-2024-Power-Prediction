@@ -15,3 +15,25 @@ AI-Cup-2024-Power-Prediction/
 ├── checkpoints/                  # 存放訓練完成之模型權重
 ├── submission-prediction-csvs/   # 最終上傳至 AI CUP 系統之預測 csv 檔
 └── README.md
+```
+
+```mermaid
+graph TD
+    A[Raw Microclimate Data] --> B{Data Preprocessing}
+    B -->|Noise Reduction| C[Feature Engineering]
+    B -->|Handling 75% Missing Values| D[Bidirectional Imputation]
+    
+    C --> E[Model Training & Optimization]
+    D --> E
+    
+    E --> F[TimesNet Architecture]
+    E --> G[Optuna Bayesian Search]
+    
+    F --> H[Solar Power Prediction]
+    G --> H
+    H --> I[Final Submission CSV]
+
+    style F fill:#f9f,stroke:#333,stroke-width:2px
+    style G fill:#bbf,stroke:#333,stroke-width:2px
+    style I fill:#dfd,stroke:#333,stroke-width:2px
+```
