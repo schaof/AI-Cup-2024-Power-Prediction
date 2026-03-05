@@ -4,23 +4,14 @@
 ## ⚙️ Workflow Architecture
 ```mermaid
 graph LR
-    A[Raw Microclimate Data] --> B{Data Preprocessing}
-    B -->|Noise Reduction| C[Feature Engineering]
-    B -->|Handling 75% Missing Values| D[Bidirectional Imputation]
-    
-    C --> E[Model Training & Optimization]
-    D --> E
-    
-    E --> F[TimesNet Architecture]
-    E --> G[Optuna Bayesian Search]
-    
-    F --> H[Solar Power Prediction]
-    G --> H
-    H --> I[Final Submission CSV]
-
-    style F fill:#f9f,stroke:#333,stroke-width:2px
-    style G fill:#bbf,stroke:#333,stroke-width:2px
-    style I fill:#dfd,stroke:#333,stroke-width:2px
+        A(["Raw Microclimate Data"])
+        B(["Solar Radiation Data (External Data from Central Weather Administration)"])
+        A --> C["Data Preprocessing"]
+        B --> C
+        C --> D["Feature Engineering"]
+        D --> E["Model Training & Hyperparameter Tuning"]
+        E --> F["Solar Power Prediction"]
+        F --> G["Generate Final Submission CSV"]
 ```
 
 ## 📂 Repository Structure
