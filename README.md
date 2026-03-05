@@ -4,8 +4,8 @@
 ## ⚙️ Workflow Architecture
 ```mermaid
 graph LR
-        A(["Raw Microclimate Data"])
-        B(["Solar Radiation Data (External Data from Central Weather Administration)"])
+        A["Raw Microclimate Data"]
+        B["Solar Radiation Data (External Data from Central Weather Administration)"]
         A --> C["Data Preprocessing"]
         B --> C
         C --> D["Feature Engineering"]
