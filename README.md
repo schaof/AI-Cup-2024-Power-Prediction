@@ -28,7 +28,7 @@ AI-Cup-2024-Power-Prediction/
 ├── competition-guidelines/       # 競賽官方說明文件與範例程式
 ├── sample-data/
 │   ├── L1_Train.csv              # 測站 1 之微氣候訓練數據（共 17 個觀測站）
-│   └── 2024-01全天空日射量.csv   # 1 月份全天空日射量（外部資料來自中央氣象署，含 1-10 月）
+│   └── 2024-01全天空日射量.csv     # 1 月份全天空日射量（外部資料來自中央氣象署，含 1-10 月）
 ├── scripts/
 │   └── power_prediction.ipynb    # 程式碼：涵蓋探索式資料分析、資料前處理、訓練與生成預測結果
 ├── reports/                      
