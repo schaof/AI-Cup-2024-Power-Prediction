@@ -3,6 +3,10 @@
 
 ## ⚙️ Workflow Architecture
 ```mermaid
+---
+config:
+  theme: neo-dark
+---
 graph TD
     A[Raw Microclimate Data] --> B{Data Preprocessing}
     B -->|Noise Reduction| C[Feature Engineering]
