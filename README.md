@@ -12,6 +12,14 @@ graph LR
         D --> E["Model Training and Hyperparameter Tuning"]
         E --> F["Solar Power Prediction"]
         F --> G["Generate Final Submission CSV"]
+
+%% 視覺設定：定義企業級深色主題 (深色背景 + 白字避免無法閱讀)
+        classDef premiumBlue fill:#2C356A,stroke:#1F264A,stroke-width:2px,color:#ffffff
+        classDef premiumGreen fill:#2D5C4A,stroke:#1F4234,stroke-width:2px,color:#ffffff
+
+        %% 套用配色：主流程使用藍色，最終產出使用綠色
+        class A,B,C,D,E,F premiumBlue
+        class G premiumGreen    
 ```
 
 ## 📂 Repository Structure
