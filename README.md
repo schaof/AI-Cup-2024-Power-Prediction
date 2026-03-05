@@ -11,7 +11,7 @@ graph LR
         C --> D["Feature Engineering"]
         D --> E["Model Training and Hyperparameter Tuning"]
         E --> F["Solar Power Prediction"]
-        F --> G["Generate Final Submission CSV"]
+        F --> G["Final Submission CSV Generation"]
 
 %% 視覺設定：定義企業級深色主題 (深色背景 + 白字避免無法閱讀)
         classDef premiumBlue fill:#2C356A,stroke:#1F264A,stroke-width:2px,color:#ffffff
