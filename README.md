@@ -3,7 +3,7 @@
 
 ## ⚙️ Workflow Architecture
 ```mermaid
-graph TD
+graph LR
     A[Raw Microclimate Data] --> B{Data Preprocessing}
     B -->|Noise Reduction| C[Feature Engineering]
     B -->|Handling 75% Missing Values| D[Bidirectional Imputation]
