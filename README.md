@@ -9,7 +9,7 @@ graph LR
         A --> C["Data Preprocessing"]
         B --> C
         C --> D["Feature Engineering"]
-        D --> E["Model Training \& Hyperparameter Tuning"]
+        D --> E["Model Training & Hyperparameter Tuning"]
         E --> F["Solar Power Prediction"]
         F --> G["Generate Final Submission CSV"]
 ```
