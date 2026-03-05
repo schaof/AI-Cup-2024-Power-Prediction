@@ -13,5 +13,5 @@ AI-Cup-2024-Power-Prediction/
 ├── reports/                      
 │   └── stat_dl_final_report.pdf  # 🏆 專案期末報告與成效對比圖 (Start Here!)
 ├── checkpoints/                  # 存放訓練完成之模型權重
-├── submission-prediction-csvs/   # 最終上傳至 AI CUP 系統之預測結果檔
+├── submission-prediction-csvs/   # 最終上傳至AI CUP 系統之預測 csv 檔
 └── README.md
