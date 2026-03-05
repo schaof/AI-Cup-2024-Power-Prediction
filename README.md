@@ -12,6 +12,6 @@ AI-Cup-2024-Power-Prediction/
 │   └── 02_model_training.ipynb   # TimesNet 訓練與 Optuna 超參數搜索
 ├── reports/                      
 │   └── stat_dl_final_report.pdf  # 🏆 專案期末報告與成效對比圖 (Start Here!)
-├── checkpoints/                  # 存放訓練完成之 TimesNet 模型權重 (Model weights)
+├── checkpoints/                  # 存放訓練完成之模型權重
 ├── submission-prediction-csvs/   # 最終上傳至 AI CUP 系統之預測結果檔
 └── README.md
